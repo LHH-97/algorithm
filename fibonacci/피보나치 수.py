@@ -14,5 +14,5 @@ def solution(n):
 import sys
 sys.setrecursionlimit(10 ** 7)
 
-#모듈러 연산의 성질 
+#모듈러 연산의 성질. 
 #(A+B)%C = (A%C + B%C)%C
