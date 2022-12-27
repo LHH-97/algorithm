@@ -1,7 +1,7 @@
 #Lv2 피보나치 수
 
 import sys
-sys.setrecursionlimit(10 ** 7)
+sys.setrecursionlimit(10 ** 6)
 
 dic = {0:0,1:1}
 def solution(n):
