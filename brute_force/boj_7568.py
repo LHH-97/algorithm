@@ -8,8 +8,8 @@ for i in range(N):
 for j in range(N):
     k = 1
     for p in range(N):
-        if arr[j] == arr[p]:
-            continue
+        #if arr[j] == arr[p]:
+        #  continue    #arr[0]과 arr[0]을 비교할시 의미가 없으니 continue를 하였으나, 없어도 되는 코드로 판단된다.   
         if arr[j][0] < arr[p][0] and arr[j][1] < arr[p][1]:
             k+=1
     print(k,end = ' ')
